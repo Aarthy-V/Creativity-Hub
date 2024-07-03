@@ -1,14 +1,15 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Form = ({
-      type="Create"
-      post={post}
-      setPost={setPost}
-      submitting={submitting}
-      handleSubmit={createPrompt}
+      type,
+      post,
+      setPost,
+      submitting,
+      handleSubmit,
 }) => {
   return (
-    <div>Form</div>
+    <section>Form</section>
   )
 }
 
